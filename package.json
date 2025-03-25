@@ -4,7 +4,8 @@
   "main": "index.html",
   "scripts": {
     "build": "npx tailwindcss-cli -i ./css/styles.css -o ./css/output.css && npx eleventy",
-    "start": "npx eleventy --serve --input . --output _site --quiet --watch"
+    "start": "npx eleventy --serve --input . --output _site --quiet --watch",
+    "publish": "npm run build && cp ./_site/* ./docs/ -r"
   },
   "keywords": [],
   "author": "",
