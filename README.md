@@ -31,6 +31,7 @@ To change anything there, please read the project's [Technical Details](#technic
 
 Once you have made your change, you need to test whether it worked first.
 You do this with the following steps:
+- Execute ``npm install`` to install the project's relevant packages.
 - Execute ``npm run build`` in the terminal to regenerate the webpage.
 - Execute ``npm run start`` in the terminal to start the webpage (if it ran successfully, the console output will mention where you should connect to; this is probably ``http://localhost:8080``).
 - Go to wherever you expect your change to appear and check if it is really there.
