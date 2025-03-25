@@ -1,0 +1,20 @@
+{
+  "name": "tailwindcss-test-proj",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "build": "npx tailwindcss-cli -i ./css/styles.css -o ./css/output.css && npx eleventy",
+    "start": "npx eleventy --serve --input . --output _site --quiet --watch",
+    "publish": "npm run build && cp ./_site/* ./docs/ -r"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.15"
+  }
+}
