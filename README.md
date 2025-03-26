@@ -17,6 +17,8 @@ If you do not want to wait for this, feel free to create a project fork and subm
 
 ## What can I change and where do I do that?
 
+### Adding a new data entry
+
 If you're here to add a new data entry (e.g., an event, personal details, etc.) or update one, you can refer to the [_data](./_data) folder.
 You will find various `JSON` files; their names should be mostly self-explanatory, so just look for the one that makes the most sense for your needs and open that one.
 From there, if you already have an entry, look it up and feel free to change it.
@@ -26,8 +28,12 @@ The project contains the following data files:
 - ...
 - ...
 
+### Adding anything else
+
 If what you're looking for is not in the data files, you'll have to change one of the `HTML` pages.
 To change anything there, please read the project's [Technical Details](#technical-details).
+
+### After you made your changes
 
 Once you have made your change, you need to test whether it worked first.
 You do this with the following steps:
